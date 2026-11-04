@@ -5,10 +5,13 @@ app/build/
 .kotlin/
 local.properties
 captures/
-*.apk
 *.aab
 *.jks
 *.keystore
+
+# APK build artifacts — keep the distributable in APK/ tracked
+app/build/outputs/**/*.apk
+*.apk.tmp
 
 # IDE
 .idea/
