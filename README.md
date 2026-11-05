@@ -25,3 +25,9 @@ Butuh JDK 21 dan Android SDK 35.
 ```
 
 Hasilnya di `app/build/outputs/apk/debug/app-debug.apk`.
+
+Kalau mau bikin bundle buat Play Store, butuh signing key sendiri, taruh di `app/keystore/` lalu update `signingConfigs` di `app/build.gradle.kts`:
+
+```bash
+./gradlew bundleRelease
+```

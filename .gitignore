@@ -6,6 +6,9 @@ app/build/
 local.properties
 captures/
 *.aab
+!APK/KanjiWidget.aab
+# Signing
+keystore/
 *.jks
 *.keystore
 
